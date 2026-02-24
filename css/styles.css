@@ -1,4 +1,4 @@
- ==================== VARIABLES & THEME ==================== */
+/* ==================== VARIABLES & THEME ==================== */
 :root {
     /* Colors - Corporate & Premium (Updated from Logo) */
     --hue-color: 210;
@@ -974,3 +974,4 @@ img {
         grid-template-columns: repeat(2, 1fr);
     }
 }
+
