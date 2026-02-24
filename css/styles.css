@@ -1,4 +1,4 @@
-/* ==================== VARIABLES & THEME ==================== */
+ ==================== VARIABLES & THEME ==================== */
 :root {
     /* Colors - Corporate & Premium (Updated from Logo) */
     --hue-color: 210;
@@ -6,11 +6,9 @@
     /* Deep Blue from 'V' */
     --first-color-alt: #081A3E;
     --first-color-light: #F0F4F8;
-
     --second-color: #00A99D;
     /* Teal/Turquoise from 'F' */
     --second-color-alt: #008C82;
-
     --title-color: #0D2C66;
     --text-color: #333333;
     --text-color-light: #666666;
@@ -21,7 +19,6 @@
     --body-font: 'Outfit', sans-serif;
     --title-font: 'Playfair Display', serif;
     /* Premium feel for headings */
-
     --big-font-size: 3rem;
     --h1-font-size: 2.25rem;
     --h2-font-size: 1.5rem;
@@ -273,7 +270,7 @@ img {
     background-color: var(--first-color);
     /* Fallback */
     /* Add a background image here in real project */
-    background-image: linear-gradient(rgba(10, 38, 71, 0.8), rgba(10, 38, 71, 0.7)), url('../assets/images/espacios conexión con sentido Mariela.jpg');
+    background-image: linear-gradient(rgba(10, 38, 71, 0.8), rgba(10, 38, 71, 0.7)), url('../assets/images/espacios conexioÌn con sentido Mariela.jpg');
     background-size: cover;
     background-position: center;
     color: #FFF;
