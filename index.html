@@ -13,7 +13,7 @@
         href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap"
         rel="stylesheet">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
@@ -22,7 +22,8 @@
     <header class="header" id="header">
         <div class="container header-container">
             <a href="#" class="logo">
-                PLENUS <span>
+                <img src="assets/images/PLENUS PNG NEGRO.png" alt="Plenus Consultores" class="logo-img">
+                <span class="logo-text">Consultores</span>
             </a>
             <nav class="nav" id="nav-menu">
                 <ul class="nav-list">
@@ -69,40 +70,55 @@
 
         <!-- About Us Section -->
         <section class="about section" id="nosotros">
+            <div class="container text-center" style="margin-bottom: 3rem;">
+                <h2 class="section-title">Impulsando la evolución <br> organizacional</h2>
+            </div>
             <div class="container about-container grid">
                 <div class="about-data">
-                    <span class="section-subtitle">Quiénes Somos</span>
-                    <h2 class="section-title">Impulsando la evolución <br> organizacional</h2>
-                    <p class="about-description">
-                        En <strong>Plenus Consultores</strong>, llevamos más de una década ayudando a organizaciones a
-                        evolucionar. Creemos que la clave del éxito no solo está en la productividad, sino en la
-                        conexión con el propósito y el bienestar de quienes forman parte de la empresa.
-                    </p>
+
+                    <div class="about-vision" style="margin-bottom: 2rem;">
+                        <h3>¿QUIÉNES SOMOS?</h3>
+                        <p>Somos un equipo de profesionales comprometidos con la transformación humana y organizacional.
+                            Nos apasiona ayudar a las empresas a integrar propósito, bienestar y rentabilidad,
+                            convencidos de que cuando las personas encuentran sentido en lo que hacen, las
+                            organizaciones crecen de manera sostenible. Unimos la Logoterapia, la psicología
+                            organizacional y la innovación estratégica para diseñar culturas laborales donde el
+                            liderazgo con propósito, la resiliencia y la sostenibilidad humana se convierten en el
+                            verdadero motor del éxito.</p>
+                    </div>
 
                     <div class="about-vision">
-                        <h3>Nuestra Visión</h3>
-                        <p>Ser el referente en la transformación de culturas organizacionales sostenibles donde el
-                            bienestar humano y la rentabilidad van de la mano.</p>
+                        <h3>¿QUÉ HACEMOS?</h3>
+                        <p>Acompañamos a las organizaciones en la construcción de culturas con propósito, integrando
+                            liderazgo, bienestar y rentabilidad sostenible. Diseñamos e implementamos estrategias de
+                            transformación cultural basadas en la Logoterapia y la psicología organizacional,
+                            fortaleciendo equipos más conscientes, resilientes y comprometidos. Convertimos el sentido
+                            en acción y la sostenibilidad humana en ventaja competitiva real.</p>
                     </div>
 
-                    <div class="about-stats">
-                        <div class="stat-item">
-                            <span class="stat-number">15+</span>
-                            <span class="stat-title">Años de<br>Experiencia</span>
-                        </div>
-                        <div class="stat-item">
-                            <span class="stat-number">100+</span>
-                            <span class="stat-title">Empresas<br>Transformadas</span>
-                        </div>
-                    </div>
                 </div>
 
                 <div class="about-img">
                     <div class="image-wrapper">
-                        <img src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?ixlib=rb-1.2.1&auto=format&fit=crop&w=1600&q=80"
-                            alt="Consultoría Corporativa" class="about-img-real">
+                        <img src="assets/images/Impulsando la eolucion organizacional.JPG" alt="Consultoría Corporativa"
+                            class="about-img-real">
                     </div>
                 </div>
+            </div>
+
+            <div class="container">
+                <div class="about-stats-bottom">
+                    <div class="stat-item">
+                        <span class="stat-number" data-target="10">0+</span>
+                        <span class="stat-title">Años de<br>Experiencia</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" data-target="25">0+</span>
+                        <span class="stat-title">Empresas<br>Transformadas</span>
+                    </div>
+                </div>
+            </div>
+
             </div>
         </section>
 
@@ -111,7 +127,6 @@
             <div class="container">
                 <div class="proposition-container grid">
                     <div class="proposition-data text-center">
-                        <span class="section-subtitle">Nuestra Promesa</span>
                         <h2 class="section-title">Propuesta de Valor</h2>
                         <div class="proposition-content">
                             <p class="proposition-text">
@@ -218,8 +233,7 @@
                     <!-- Service 1 -->
                     <article class="service-card active">
                         <div class="service-img">
-                            <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80"
-                                alt="Evaluaciones y Diagnósticos">
+                            <img src="assets/images/Evaluaciones Diagnostico.jpg" alt="Evaluaciones y Diagnósticos">
                         </div>
                         <div class="service-content">
                             <div class="service-icon-box">
@@ -236,8 +250,7 @@
                     <!-- Service 2 -->
                     <article class="service-card">
                         <div class="service-img">
-                            <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=800&q=80"
-                                alt="Talleres Vivenciales">
+                            <img src="assets/images/Taller-Vivencial.png" alt="Talleres Vivenciales">
                         </div>
                         <div class="service-content">
                             <div class="service-icon-box">
@@ -254,8 +267,7 @@
                     <!-- Service 3 -->
                     <article class="service-card">
                         <div class="service-img">
-                            <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=800&q=80"
-                                alt="Coaching Logoexistencial">
+                            <img src="assets/images/Coaching logoexistencial CINDU.jpg" alt="Coaching Logoexistencial">
                         </div>
                         <div class="service-content">
                             <div class="service-icon-box">
@@ -272,15 +284,15 @@
                     <!-- Service 4 -->
                     <article class="service-card">
                         <div class="service-img">
-                            <img src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?auto=format&fit=crop&w=800&q=80"
-                                alt="Círculos de Diálogo">
+                            <img src="assets/images/espacios conexión con sentido Mariela.jpg"
+                                alt="Espacio de Conexión con Sentido">
                         </div>
                         <div class="service-content">
                             <div class="service-icon-box">
                                 <i class='bx bx-conversation'></i>
                             </div>
                             <div class="service-text">
-                                <h3>Círculos de Diálogo</h3>
+                                <h3>Espacio de Conexión con Sentido</h3>
                                 <p>Espacios de conversación profunda para alinear valores, propósito y sentido dentro
                                     del equipo.</p>
                             </div>
@@ -290,8 +302,7 @@
                     <!-- Service 5 -->
                     <article class="service-card">
                         <div class="service-img">
-                            <img src="https://images.unsplash.com/photo-1540317580384-e5d43616b9aa?auto=format&fit=crop&w=800&q=80"
-                                alt="Seminarios y Conferencias">
+                            <img src="assets/images/Seminarios y conferencias.JPG" alt="Seminarios y Conferencias">
                         </div>
                         <div class="service-content">
                             <div class="service-icon-box">
@@ -334,19 +345,31 @@
                     <h2 class="section-title">Nuestro Liderazgo</h2>
                 </div>
                 <div class="team-container grid">
+                    <!-- Member 1: Manuel García -->
                     <div class="team-member">
-                        <div class="member-img-placeholder">MG</div>
-                        <h3>Manuel García</h3>
-                        <span class="member-role">Presidente & Psicólogo</span>
-                        <p>Especialista en Logoterapia y estrategias de cambio organizacional. Codiseñador de programas
-                            "Empresas con Sentido".</p>
+                        <div class="member-img-container">
+                            <img src="assets/images/Psic.Manuel.png" alt="Manuel García" class="member-img">
+                            <div class="member-name-overlay">Psic. Manuel García</div>
+                        </div>
+                        <div class="member-info">
+                            <span class="member-role">Presidente & Psicólogo</span>
+                            <p class="member-specialization">Especialista en Logoterapia y estrategias de cambio
+                                organizacional. Codiseñador de programas "Empresas con Sentido".</p>
+                        </div>
                     </div>
+
+                    <!-- Member 2: Mariela Yánez -->
                     <div class="team-member">
-                        <div class="member-img-placeholder">MY</div>
-                        <h3>Mariela Yánez</h3>
-                        <span class="member-role">Abogada & Psicóloga</span>
-                        <p>Magister en Derecho del Trabajo y Coach PNL. 25+ años de experiencia académica y
-                            administrativa.</p>
+                        <div class="member-img-container">
+                            <img src="assets/images/Psic.Mariela.png" alt="Mariela Yánez" class="member-img">
+                            <div class="member-name-overlay">Psic. Mariela Yánez</div>
+                        </div>
+                        <div class="member-info">
+                            <span class="member-role">Abogada & Psicóloga</span>
+                            <p class="member-specialization">Magister en Derecho del Trabajo, Especialista en
+                                Logoterapia y Coach PNL. 25+ años de
+                                experiencia académica y administrativa.</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -390,3 +413,4 @@
 
 
 </html>
+
