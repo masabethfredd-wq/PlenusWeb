@@ -273,7 +273,7 @@ img {
     background-color: var(--first-color);
     /* Fallback */
     /* Add a background image here in real project */
-    background-image: linear-gradient(rgba(10, 38, 71, 0.8), rgba(10, 38, 71, 0.7)), url('../assets/images/espacios conexión con sentido Mariela.jpg');
+    background-image: linear-gradient(rgba(10, 38, 71, 0.8), rgba(10, 38, 71, 0.7)), url('..assets/images/Evaluaciones Diagnostico.jpg');
     background-size: cover;
     background-position: center;
     color: #FFF;
@@ -977,3 +977,4 @@ img {
         grid-template-columns: repeat(2, 1fr);
     }
 }
+
